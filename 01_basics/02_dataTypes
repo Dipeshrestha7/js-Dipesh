@@ -1,0 +1,20 @@
+//"use strrict"; //treat all JS code as newer version 
+// alert(3+3)  We are using node js, not browser
+
+console.log(3+
+    3) // code readability that should be high 
+    
+console.group("Dipesh")
+
+
+
+
+
+
+
+
+
+
+
+
+
