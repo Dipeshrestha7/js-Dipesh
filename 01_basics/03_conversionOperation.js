@@ -10,9 +10,13 @@ console.log(typeof valueInNumber);
 // "33abc" => NaN
 // true =>1; false => 0
 
-let isLoggedIn = 1
-let booleanIsLoggedIn = Booleans(isLoggedIn)
 
-//" " =>false
-//"Dipesh" => true
+
+// " " =>false
+// "Dipesh" => true
+
+let someNumber = 33
+let stringNumber= String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
 
