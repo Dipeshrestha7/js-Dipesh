@@ -21,5 +21,27 @@ const newArray =myArray.join() //Add all the element into a string
 console.log(newArray)
 
 
+const hero= ['thor','Ironman', 'spiderman',]
+const hero1= ['superman','Flash','batman']
+hero.push(hero1)
+
+console.log(hero)
+
+hero.concat(hero)
+    console.log(hero)
+
+const num= [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+
+console.log(num.flat(Infinity))    //output in single array
+// const real_num=num.flat(Infinity)
+// console.log(real_num)           //output in single array
+
+
+
+
+
+
+
+
 
 
