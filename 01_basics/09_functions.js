@@ -53,10 +53,10 @@ const user={
 }
 
 function handelObject(anyObject){
-    console.log('Username is ${anyObject.username} and price is ${anyObject.price}');
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
 }
 
-//handelObject(user)
+handelObject(user)
 
 handelObject({
     username: "DIipesh",
