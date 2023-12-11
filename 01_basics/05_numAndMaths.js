@@ -25,7 +25,7 @@
 // console.log(Math.min(1,2,3,4)) //to find lowest value
 // console.log(Math.max(1,2,3,4)) // to find highest value
 
-console.log(Math.ramdom()) 
+//console.log(Math.ramdom()) 
 
 
 
