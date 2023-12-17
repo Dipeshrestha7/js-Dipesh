@@ -24,8 +24,15 @@ const user= {
 
 // const one= (num1,num2) => (num1+ num2)
 
-const one= (num1,num2) => ({username:'Dipesh'})
+// const one= (num1,num2) => ({username:'Dipesh'})
 
-console.log(one(2,3))
+// console.log(one(2,3))
 
-const  myArray =[2,3,4,5,6]
+// const  myArray =[2,3,4,5,6]
+
+
+const one =(num1, num2) => (num1+num2)
+
+console.log(one(2,2))
+
+
