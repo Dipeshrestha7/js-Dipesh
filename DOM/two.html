@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM Learning</title>
+</head>
+<body>
+    //USE OF oninput() METHOD
+   
+    Enter your name <input type="text" id="fname" oninput="uppercase()">
+
+
+    <script>
+        function uppercase(){
+            const x= document.getElementById("fname");
+            x.value =x.value.toUpperCase();
+        }
+
+    </script>
+</body>
+</html>
