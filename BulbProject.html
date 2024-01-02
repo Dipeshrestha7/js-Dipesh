@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bulb Switch</title>
+        <link rel="Stylesheet" href="bulb.css">
+    </head>
+    <body>
+        <img id="bulbb" src="F:\BCA\3rd sem\Web project\Bulb_project\off.jpg" class="container">
+        <button id="btnn" class="container2">Turn On</button>
+
+        <script>
+            let btn = document.getElementById('btnn');
+            let bulb= document.getElementById('bulbb');
+
+            btn.addEventListener('click',wow);
+
+            function wow(){
+                if(btn.textContent.includes('On')){
+
+                    bulb.src="on.jpg";
+                    btn.textContent="Trun Off";
+
+                }
+                else{
+                    bulb.src="off.jpg";
+                    btn.textContent="Trun On";
+                }
+            }
+
+        </script>
+    </body>
+</html>
