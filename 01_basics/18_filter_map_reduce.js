@@ -49,17 +49,34 @@ const myNumbers = [1,2,3,4,5,6,7,8,9,10];
 
 //const newnums=myNumbers.map( ( num ) => num+10 );
 const newnums = myNumbers.map((num)=>num*10).map((num)=>{ return num+1})
-console.log(newnums);
+//console.log(newnums);
 
 //////////////////////reduce\\\\\\\\\\\\\\\\\\\
 const mynumss= [1,2,3,4];
 
 const myTotal = mynumss.reduce((acc,currval)=>{
-    console.log(`acc: ${acc} and currval : ${currval}`);
+   // console.log(`acc: ${acc} and currval : ${currval}`);
     return acc + currval
 },0)
-console.log(myTotal);
+//console.log(myTotal);
 
+const dipesh = [
+    { name: 'dipesh', age: '22' }
+];
 
+const myinfo = dipesh.map(info => ({
+    nameMatch: info.name === 'dipesh',
+    ageMatch: info.age === '22'
+}));
 
+//console.log(myinfo);
+ 
+let echi =[1,2,3,4,5,15,6,7,8,9];
+
+//const allechi= echi.map((nums)=> nums+1);
+
+//const allechi = echi.filter((nums)=>nums>5)
+
+const allechi = echi.reduce((acc,curr)=>{ return acc+curr})
+console.log(allechi);
 
