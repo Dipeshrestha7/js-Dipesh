@@ -2,8 +2,6 @@ const user= {
     username: "Dipesh",
     loginCount :8,
     isloggedIn: true,
-
-
     getUserDetails: function(){
         console.log("Got User Details from database");
         console.log(`Username : ${this.username}`);
