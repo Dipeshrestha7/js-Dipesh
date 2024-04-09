@@ -118,7 +118,7 @@ const promiseSix = new Promise(function(resolve, reject){
 }).then(function(){
     console.log("Then is also been used successfully")
 }).catch((err) => console.log(err))
-.finally(() => console.log("Finally all task is complete"))
+.finally(() => console.log("Fina lly all task is complete"))
 
 
 const promiseSeven = new Promise(function (resolve,reject){
@@ -140,7 +140,7 @@ const promiseSeven = new Promise(function (resolve,reject){
     console.log("Err : Error went wrong in JS")
 }).finally(function(){
     console.log("Finally it is either resolved either rejected...")
-})
+});
 
 
 
