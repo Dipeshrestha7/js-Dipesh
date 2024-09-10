@@ -78,5 +78,19 @@ let echi =[1,2,3,4,5,15,6,7,8,9];
 //const allechi = echi.filter((nums)=>nums>5)
 
 const allechi = echi.reduce((acc,curr)=>{ return acc+curr})
-console.log(allechi);
+// console.log(allechi);
 
+
+///////////////////FILTER\\\\\\\\\\\\\\\\\\\\\\\
+
+let power = [1,2,3,4,5,6,7,8,9,10]
+
+// const Specialpower = power.filter((num) => num>5 )
+const Specialpower = power.filter((num) =>{
+ return num> 5 || num<5
+})
+console.log(Specialpower)
+
+////////////////MAP\\\\\\\\\\\\\\\\\
+
+let 
