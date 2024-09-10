@@ -93,4 +93,19 @@ console.log(Specialpower)
 
 ////////////////MAP\\\\\\\\\\\\\\\\\
 
-let 
+let age = [11,22,33,44,55,66,77]
+
+const Totalage = age.map((sum) => {
+    return sum +100
+})
+console.log(Totalage)
+
+// const TotalAge = age
+// .map((sum) =>{
+//     let total = 0
+//     for (let i = 0; i < array.length; i++) {
+//         total = age[i] + total;
+//     }
+//     console.log(total)
+// } )
+// console.log(TotalAge)
