@@ -124,4 +124,9 @@ const Totalage = age.map((sum) => {
 // } )
 // console.log(TotalAge)
 
+//////////////reduce\\\\\\\\\\\\
+ let Heronum = [1,2,3,4,5,6,7,8]
 
+const addThis = Heronum.reduce((acc,currval) =>{return acc + currval},0)
+
+console.log(addThis)
