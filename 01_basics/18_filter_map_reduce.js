@@ -101,7 +101,7 @@ const kitab = [
 ];
 
 let SabKitab = kitab.filter((choose) => {
-    return choose.genere === 'Fiction';
+    return choose.genere === 'Non-Fiction' && choose.publish >2090;
 })
 console.log(SabKitab)
 
