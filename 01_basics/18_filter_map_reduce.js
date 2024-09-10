@@ -89,16 +89,30 @@ let power = [1,2,3,4,5,6,7,8,9,10]
 const Specialpower = power.filter((num) =>{
  return num> 5 || num<5
 })
-console.log(Specialpower)
+// console.log(Specialpower)
+
+
+const kitab = [
+    {title: 'Book One', genere: 'Fiction', publish : 1981, edition:'2004'},
+    {title: 'Book Two', genere: 'Non-Fiction', publish : 1992, edition:'2008'},
+    {title: 'Book Three', genere: 'History', publish : 1999, edition:'2007'},
+    {title: 'Book Four', genere: 'Non-Fiction', publish : 1989, edition:'2010'},
+    {title: 'Book Five', genere: 'Science', publish : 2009, edition:'2014'}
+];
+
+let SabKitab = kitab.filter((choose) => {
+    return choose.genere === 'Fiction';
+})
+console.log(SabKitab)
 
 ////////////////MAP\\\\\\\\\\\\\\\\\
 
 let age = [11,22,33,44,55,66,77]
 
 const Totalage = age.map((sum) => {
-    return sum +100
+    return sum +100;
 })
-console.log(Totalage)
+// console.log(Totalage)
 
 // const TotalAge = age
 // .map((sum) =>{
@@ -109,3 +123,5 @@ console.log(Totalage)
 //     console.log(total)
 // } )
 // console.log(TotalAge)
+
+
