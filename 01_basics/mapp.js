@@ -1,8 +1,10 @@
-const number = [1,2,3,4,5,6,7,8]
+const Person= [
+    {name:'Dipesh Shrestha', age:22, weight:65},
+    {name:'Nimesh Shrestha', age:23, weight:58},
+    {name:'Aayush Shrestha', age:22, weight:60}
+]
 
-let add = number.map((num) => {
-   return num + 100
+let Wecan = Person.filter((per) =>{
+    return per.name==='Dipesh Shrestha' && per.name ==='Aayush Shrestha'
 })
-.map((num) => num+100 )
-
-console.log(add)
+console.log(Wecan)
