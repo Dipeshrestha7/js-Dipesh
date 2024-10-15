@@ -7,4 +7,5 @@ const Person= [
 let Wecan = Person.filter((per) =>{
     return per.name==='Dipesh Shrestha' && per.name ==='Aayush Shrestha'
 })
+
 console.log(Wecan)

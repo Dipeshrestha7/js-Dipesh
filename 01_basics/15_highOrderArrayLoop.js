@@ -10,7 +10,3 @@ for (const greet of greetings) {
     console.log(`Each char is ${greet}`)
 }
 
-//Maps
-
-const map = new Map()
-map.
