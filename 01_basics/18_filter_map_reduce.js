@@ -92,18 +92,18 @@ const Specialpower = power.filter((num) =>{
 // console.log(Specialpower)
 
 
-const kitab = [
-    {title: 'Book One', genere: 'Fiction', publish : 1981, edition:'2004'},
-    {title: 'Book Two', genere: 'Non-Fiction', publish : 1992, edition:'2008'},
-    {title: 'Book Three', genere: 'History', publish : 1999, edition:'2007'},
-    {title: 'Book Four', genere: 'Non-Fiction', publish : 1989, edition:'2010'},
-    {title: 'Book Five', genere: 'Science', publish : 2009, edition:'2014'}
-];
+// const kitab = [
+//     {title: 'Book One', genere: 'Fiction', publish : 1981, edition:'2004'},
+//     {title: 'Book Two', genere: 'Non-Fiction', publish : 1992, edition:'2008'},
+//     {title: 'Book Three', genere: 'History', publish : 1999, edition:'2007'},
+//     {title: 'Book Four', genere: 'Non-Fiction', publish : 1989, edition:'2010'},
+//     {title: 'Book Five', genere: 'Science', publish : 2009, edition:'2014'}
+// ];
 
-let SabKitab = kitab.filter((choose) => {
-    return choose.genere === 'Non-Fiction' && choose.publish >2090;
-})
-console.log(SabKitab)
+// let SabKitab = kitab.filter((choose) => {
+//     return choose.genere === 'Non-Fiction' && choose.publish >2090;
+// })
+// console.log(SabKitab)
 
 ////////////////MAP\\\\\\\\\\\\\\\\\
 
@@ -112,21 +112,21 @@ let age = [11,22,33,44,55,66,77]
 const Totalage = age.map((sum) => {
     return sum +100;
 })
-// console.log(Totalage)
+console.log(Totalage)
 
-// const TotalAge = age
-// .map((sum) =>{
-//     let total = 0
-//     for (let i = 0; i < array.length; i++) {
-//         total = age[i] + total;
-//     }
-//     console.log(total)
-// } )
-// console.log(TotalAge)
+const TotalAge = age
+.map((sum) =>{
+    let total = 0
+    for (let i = 0; i < array.length; i++) {
+        total = age[i] + total;
+    }
+    console.log(total)
+} )
+console.log(TotalAge)
 
 //////////////reduce\\\\\\\\\\\\
- let Heronum = [1,2,3,4,5,6,7,8]
+//  let Heronum = [1,2,3,4,5,6,7,8]
 
-const addThis = Heronum.reduce((acc,currval) =>{return acc + currval},0)
+// const addThis = Heronum.reduce((acc,currval) =>{return acc + currval},0)
 
-console.log(addThis)
+// console.log(addThis)
