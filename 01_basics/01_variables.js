@@ -29,5 +29,10 @@ var email = ".com"
 // console.log(email)
 
 let pass = "12345#"
-let pass = "12"
+let password =[1,2,3]
 // console.log(pass)
+
+// console.log(typeof(pass));
+// console.log(typeof(password));
+
+let 
